@@ -1,0 +1,32 @@
+This is a list of git commands that i hae just learnt and what they do:
+
+git commit: creates a new node in the git tree with any changes to the files. It moves
+ the current branch that you are in to the new commit.
+
+git branch <name>: creates a new "branch" this is like a way to address to a commit you
+ are normally checked into a branch and other commands yo run will work on the branch you
+ are checked into. when you git branch you do not automatically check into that branch.
+	git branch -f <branch to move> <commit to move it to>: you ca move a branch around using 
+	the force flag.
+
+git checkout <branch name>: checks you into that brach to see it and work on it.
+	git checkout -b <new branch>: branches and checks you into the branch
+
+git merge <branch name> creates a new commit with the current branch and branch name as
+ it parents.
+
+git rebase <branch name>: delets the current branch and pops a copy on top of branch name.
+
+git reset <commit>:
+
+git restore <ansestor commit>: coppys the ansestor commits changes then commits them to undo 
+the changes.
+
+git fetch: updates locat repo to the remote one.
+
+git pull: git fetch then merge can have flags --rebase or --no-rebase.
+
+git push: pushes changes from local to remote repo.
+
+
+
