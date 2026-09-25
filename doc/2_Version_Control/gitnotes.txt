@@ -28,5 +28,9 @@ git pull: git fetch then merge can have flags --rebase or --no-rebase.
 
 git push: pushes changes from local to remote repo.
 
+git add <file name>: adds files to the next commit.
 
+git status: the status of files in the local repo. i.e whats been un documented change wise(not added) or not commited.
+
+git log: a log of commits where the head is and braches and such. 
 
